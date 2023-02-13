@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mi CV Maria Celeste Arroyo</title>
+</head>
+<body>
+    <!--  INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="logo">
+                    <span class="color">CA</span>
+                </div>
+            </header>
+            <div class="info">
+                <h1>CELESTE ARROYO</h1>
+                <h2>ESTUDIANTE</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="imagen/fotocv.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles personales</h3>
+
+            <p class="especial">Estudiante de Educación Especial</p>
+            <p>Soy una educadora social con especialización en el trato de niños y adolescentes con discapacidad. 
+                    Después de haber tenido muy buenos años en mi empleo actual, ahora creo que es hora de un nuevo desafío con oportunidades de carrera y menos distancia de viaje.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p> * Programación
+                        * Diseño grafico
+                        * Marketing
+                    </p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-language"></i>
+                    <span class="titulo-detalle">Idiomas</span>
+                    <p> * Español
+                        * Inglés 
+                    </p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-school-flag"></i>
+                    <span class="titulo-detalle">Educación</span>
+                    <p> BSPA N° 7065 - BACHILLER ACELERADO EN INFORMATICA                      
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <<!-- HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Habilidades</h2>
+            <h3>Me especializo en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">  
+                        </div>
+                        <span>64%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>INTERVENCIÓN</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="intervencion">
+                           
+                        </div>
+                        <span>64%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>COMUNICACIÓN</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="comunicacion">
+                                              
+                        </div>
+                        <span>88%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>DESARROLLO DE ACTIVIDADES EDUCATIVAS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="desarrollodeactividadeseducativas">
+                           
+                        </div>
+                        <span>94%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>ORGANIZACCIÓN</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="organizacion">
+                           
+                        </div>
+                        <span>65%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA LABORAL -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2022 - En curso</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Actualmente cursando 2° año. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Prof. de Educ. Especial c/orientación en Disc. Neuromotora</h4>
+                                <p>Instituto de Educación Superior N°10</p>
+                                <span class="promedio">9.6 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2023</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Actualmente cursando para obtener los conocimientos necesarios en el desarrollo front-end.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Primeros pasos del desarrollo frontend</h4>
+                                <p>Argentina Programa</p>
+                                <span class="promedio">7.9 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>4 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Me desempeñé en el área de Atención al Cliente, Caja y Marketing.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Mc Donald's</h4>
+                                <p>Crew</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>3 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Me desempeñé como Cajera, Control de Stock y Ventas.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Markova</h4>
+                                <p>Vendedora</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Ponte en contacto ahora mismo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">+54 387 - 6102165</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                    </h2>
+                    <span class="info-contacto">celestarroyo@hotmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="JAVA.JS"></script>
+</body>
+</html>
